@@ -448,6 +448,7 @@ python.pkgs.buildPythonApplication rec {
   dependencies = with python.pkgs; [
     # Only packages required in pyproject.toml
     aiodns
+    aiofiles
     aiohasupervisor
     aiohttp
     aiohttp-asyncmdnsresolver
